@@ -10,9 +10,12 @@
     <!-- <ExerciesVue05 /> -->
 
     <!-- props 예제 -->
-    <input v-model="parentMsg" />
+    <!-- <input v-model="parentMsg" /> -->
     <!-- <ExerciseComponent01 v-bind:my-message="parentMsg" /> -->
-    <ExerciseComponent01 v-bind="todo" />
+    <!-- <ExerciseComponent01 v-bind="todo" /> -->
+
+    <!-- 트랜지션 예제 -->
+    <ExerciseTransition />
   </div>
 </template>
 
@@ -24,7 +27,8 @@
 // import ExerciseVue03 from "./components/ExerciseVue03.vue";
 // import ExerciseVue04 from "./components/ExerciseVue04.vue";
 // import ExerciesVue05 from "./components/ExerciesVue05.vue";
-import ExerciseComponent01 from "./components/ExerciseComponent01.vue";
+// import ExerciseComponent01 from "./components/ExerciseComponent01.vue";
+import ExerciseTransition from "./components/ExerciseTransition.vue";
 
 /*
 App.vue 파일에서 내보내는(export) 컴포넌트는 main.js 파일에서 사용한다.
@@ -55,7 +59,8 @@ export default {
     // ExerciseVue03,
     // ExerciseVue04,
     // ExerciesVue05,
-    ExerciseComponent01,
+    // ExerciseComponent01,
+    ExerciseTransition,
   },
 };
 </script>

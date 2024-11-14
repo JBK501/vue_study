@@ -16,7 +16,7 @@ export default {
   props: {
     // myMessage: String,
 
-    // todo 객체
+    // todo 객체 데이터
     text: {
       type: String,
       required: true,
