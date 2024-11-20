@@ -15,7 +15,8 @@
     <!-- <ExerciseComponent01 v-bind="todo" /> -->
 
     <!-- 트랜지션 예제 -->
-    <ExerciseTransition />
+    <!-- <ExerciseTransition /> -->
+    <ExerciseTransitionGroup />
   </div>
 </template>
 
@@ -28,7 +29,8 @@
 // import ExerciseVue04 from "./components/ExerciseVue04.vue";
 // import ExerciesVue05 from "./components/ExerciesVue05.vue";
 // import ExerciseComponent01 from "./components/ExerciseComponent01.vue";
-import ExerciseTransition from "./components/ExerciseTransition.vue";
+// import ExerciseTransition from "./components/ExerciseTransition.vue";
+import ExerciseTransitionGroup from "./components/ExerciseTransitionGroup.vue";
 
 /*
 App.vue 파일에서 내보내는(export) 컴포넌트는 main.js 파일에서 사용한다.
@@ -60,7 +62,8 @@ export default {
     // ExerciseVue04,
     // ExerciesVue05,
     // ExerciseComponent01,
-    ExerciseTransition,
+    // ExerciseTransition,
+    ExerciseTransitionGroup,
   },
 };
 </script>
