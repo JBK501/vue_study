@@ -16,7 +16,14 @@
 
     <!-- 트랜지션 예제 -->
     <!-- <ExerciseTransition /> -->
-    <ExerciseTransitionGroup />
+    <!-- <ExerciseTransitionGroup /> -->
+
+    <!-- Keep Alive 예제 -->
+    <!-- <ExerciseKeepAlive /> -->
+
+    <!-- Teleport 예제 (뷰에서 모달 사용) -->
+    <ExerciseTeleport />
+    <!-- <MyModal /> -->
   </div>
 </template>
 
@@ -30,7 +37,10 @@
 // import ExerciesVue05 from "./components/ExerciesVue05.vue";
 // import ExerciseComponent01 from "./components/ExerciseComponent01.vue";
 // import ExerciseTransition from "./components/ExerciseTransition.vue";
-import ExerciseTransitionGroup from "./components/ExerciseTransitionGroup.vue";
+// import ExerciseTransitionGroup from "./components/ExerciseTransitionGroup.vue";
+// import ExerciseKeepAlive from "./components/ExerciseKeepAlive.vue";
+import ExerciseTeleport from "./components/ExerciseTeleport.vue";
+// import MyModal from "./components/MyModal.vue";
 
 /*
 App.vue 파일에서 내보내는(export) 컴포넌트는 main.js 파일에서 사용한다.
@@ -63,7 +73,10 @@ export default {
     // ExerciesVue05,
     // ExerciseComponent01,
     // ExerciseTransition,
-    ExerciseTransitionGroup,
+    // ExerciseTransitionGroup,
+    // ExerciseKeepAlive,
+    ExerciseTeleport,
+    // MyModal, // 테스트용
   },
 };
 </script>
